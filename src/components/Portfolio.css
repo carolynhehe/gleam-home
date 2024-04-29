@@ -1,0 +1,42 @@
+.portfolio-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); /* 使图片组适应不同屏幕宽度 */
+    gap: 20px;
+}
+
+.image-set {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px; /* 图片集之间的间隔 */
+}
+
+.before-after {
+    display: flex; /* 使用 Flexbox 来进行水平布局 */
+    justify-content: space-between; /* 在图像之间添加空间 */
+}
+
+.before-after img {
+    width: 49%; /* 将图片宽度设为容器的一半减去一点点空隙 */
+    height: auto; /* 保持图像纵横比 */
+    display: block;
+}
+
+.home-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* 按钮与图片间距 */
+}
+
+.home-button:hover {
+    background-color: #0056b3;
+}

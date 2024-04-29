@@ -1,0 +1,9 @@
+.hero-container{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f5f7fa;
+    max-width: 1200px;
+}
